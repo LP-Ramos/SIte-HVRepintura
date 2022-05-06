@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>HV Repintura Automotiva</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="index">
+            <h1>
+                <a href="index.html">
+                    <img id="logo" class="logo" src="img/logo1.png" alt="Logo HV Repintura Automotiva"/>
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul>
+                    <a id="home"><li>Home</li></a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="#servicos"><li>Serviços</li></a>
+                    <a href="#contato"><li>Contato</li></a>
+                </ul>
+            </nav>
+        </div>
+        <hr class="header-line">
+    </header>
+
+    <main>
+        <div class="caixa">
+            <img class="main-img" src="./img/main.jpg" alt="Imagem com dois pintores automotivos segurando uma pistola de pintura">
+            <div class="main-contatos">
+                <a href="tel:+5528999619595" target="blank">
+                    <span id="btnTelefone" class="contato">
+                        <img src="./img/icons/tel.png"/><p>Telefone</p>
+                    </span>
+                </a>
+                <a href="https://web.whatsapp.com/send?phone=5528999619595" target="blank">
+                    <span id="btnWhatsapp" class="contato">
+                        <img src="./img/icons/whats.png"/><p>WhatsApp</p>
+                    </span>
+                </a>
+                <a href="https://www.instagram.com/hvrepintura/" target="blank">
+                    <span id="btnInstagram" class="contato">
+                        <img src="./img/icons/insta.png"/><p>Instagram</p>
+                    </span>
+                </a>
+                <a href=mailto:hvrepintura@gmail.com target="blank">
+                    <span id="btnEmail" class="contato">
+                        <img src="./img/icons/mail.png"/><p>Email</p>
+                    </span>
+                </a>
+            </div>
+            <div class="caixa-seta">
+                <a href="#sobre"><span class="seta"></span></a>
+            </div>
+        </div>
+    </main>
+    
+    <section id="sobre" class="caixa">
+        <h2 class="titulo">Sobre a nossa empresa</h2>
+        <div class="caixa-section">
+            <p class="descricao">A HV nasceu com o intuito de oferecer o melhor serviço especializado no exterior de automóveis, contando com todo tipo de pintura, cristalização, polimento e muito mais!
+                <br><br>Atuamos na cidade de Cachoeiro de Itapemirim/ES e região.
+                <br><br>Com experiência comprovada a empresa investe constantemente em qualidade e novas tecnologias;
+                <br><br>Nosso atendimento é rápido, exclusivo e pessoal com profissionais especializados em pintura automotiva, utilizando equipamentos da mais alta tecnologia e acompanhando as tendências do mercado.
+                <br><br>Elaboramos a tinta de forma adequada para cada veículo e dispomos de câmara de pintura com dispersão de gases, contribuindo assim para o meio ambiente.
+                <br><br>Nossa missão é proporcionar aos clientes serviços de alta qualidade com preço justo.
+                <br><br>Através da valorização, honestidade e comprometimento com nossos colaboradores e clientes nossa empresa busca a excelência e destaque no mercado automotivo.
+            </p>
+            <img class="img-caixa" src="./img/sobre.jpg"/>
+        </div>
+        <hr class="divisoria">
+    </section>
+
+    <section id="servicos" class="caixa">
+        <h2 class="titulo">Conheça os nossos serviços</h2>
+        <div class="caixa-section">
+            <img class="img-caixa" src="./img/servicos.jpg"/>
+            <ul>
+                <li>Repintura Automotiva;</li>
+                <li>Polimento em Geral;</li>
+                <li>Polimento de Faróis;</li>
+                <li>Cristalização;</li>
+                <li>Vitrificação;</li>
+                <li>Tira Riscos;</li>
+                <li>Espelhamento de Pintura;</li>
+                <li>Recuperamos Para-choque;</li>
+                <li>Martelinho de Ouro.</li>
+            </ul>
+
+        </div>
+        <p class="frase">O cuidado que o seu veículo merece!</p>
+        <hr class="divisoria">
+    </section>
+
+    <section id="contato" class="caixa">
+        <h2 class="titulo">Entre em contato conosco</h2>
+        <p class="descricao-contato">Responderemos o mais breve possível</p>
+        
+        <form>
+            <div class="form-1">
+                <label for="nome">Nome completo:</label>
+                <input type="text" name="nome" placeholder="Nome completo" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="E-mail" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" placeholder="Telefone">
+            </div>
+
+            <div class="form-2">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" placeholder="Digie a sua mensagem" required></textarea>
+            
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1280.8232013346953!2d-41.147302036642756!3d-20.83700731734123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb95d6e8fe81b39%3A0x13a45394a2e0d48f!2sR.%20Cust%C3%B3dio%20Noenta%2C%206%20-%20Gilson%20Carone%2C%20Cachoeiro%20de%20Itapemirim%20-%20ES%2C%2029310-578!5e0!3m2!1spt-BR!2sbr!4v1651868610602!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="end-footer">
+            <p>Rua Custódio Noenta nº 6 - Gilson Carone<br>Cachoeiro de Itapemirim/ES</p>
+        </div>
+
+        <div class="hv-footer">
+            <img src="img/logo2.png" alt="Logo HV Repintura Automotiva"/>
+            <p>HV Repintura Automotiva<br>&copy; Todos os direitos reservados 2022.</p>
+        </div>
+
+        <div class="dev-footer">
+            <p>Desenvolvido por: <a href="https://www.linkedin.com/in/lp-ramos/" target="blank">LP-Ramos</a></p>
+        </div>
+    </footer>
+</body>
+    <script src="./js/header.js"></script>
+    <script src="./js/hover.js"></script>
+    <script src="./js/script.js"></script>
+</html>

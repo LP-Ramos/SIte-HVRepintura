@@ -1,0 +1,92 @@
+.main-img{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    box-shadow: var(--aux-color-1) 10px 10px 0px 0px;
+    transition: var(--transition-duration-2);
+}
+
+.main-img:hover{
+    box-shadow: var(--aux-color-1) -10px -10px 0px 0px;
+}
+
+.main-contatos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.contato{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid var(--aux-color-1);
+    border-radius: 5px;
+    padding: 10px;
+    transition: var(--transition-duration-2);
+}
+
+.contato img{
+    width: 20px;
+    filter: invert(100%);
+}
+
+.contato p{
+    color: var(--text-color-3);
+    font-weight: bold;
+}
+
+.btnTelefone-hover{
+    background-color: rgb(194, 44, 44);
+    border-color: #ffffff00;
+}
+
+.btnWhatsapp-hover{
+    background-color: rgb(92, 189, 27);
+    border-color: #ffffff00;
+}
+
+.btnInstagram-hover{
+    background-color: rgb(138, 99, 211);
+    border-color: #ffffff00;
+}
+
+.btnEmail-hover{
+    background-color: rgb(35, 189, 168);
+    border-color: #ffffff00;
+}
+
+.btnTelefone-hover img, .btnWhatsapp-hover img, .btnInstagram-hover img, .btnEmail-hover img{
+    filter: none;
+}
+
+.btnTelefone-hover p, .btnWhatsapp-hover p, .btnInstagram-hover p, .btnEmail-hover p{
+    color: var(--text-color-1);
+}
+
+.caixa-seta{
+    width: 940px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.seta{
+    margin-top: 0;
+    position: absolute;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px var(--aux-color-1) inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.seta:hover{
+    box-shadow: 2px -2px 0 1px var(--aux-color-2) inset;
+}

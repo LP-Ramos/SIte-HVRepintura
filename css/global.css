@@ -1,0 +1,33 @@
+body{
+    font-family: 'roboto', sans-serif;
+    --transition-duration: 0.5s;
+    --transition-duration-2: 0.3s;
+
+    --transparent-color: #006cc418;
+    --transparent-color-2: #58b0f88f;
+    --shadow-color: #006cc46b;
+
+    --main-color: #005091;
+    --aux-color-1: #003663;
+    --aux-color-2: #68edff;
+
+    --aux-color-3: #d7faff;
+
+    --text-color-1: #ffffff;
+    --text-color-2: #000000;
+    --text-color-3: #003663;
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+}
+
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+    dis
+}
+
+a{
+    text-decoration: none;
+}

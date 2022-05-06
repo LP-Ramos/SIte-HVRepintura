@@ -1,0 +1,130 @@
+.titulo{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 70px;
+    color: var(--aux-color-1);
+    text-align: center;
+}
+
+.caixa-section{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-caixa{
+    width: 40%;
+    height: 40%;
+    margin-top: 15px;
+    box-shadow: var(--aux-color-1) 5px 5px 0px;
+    transition: var(--transition-duration-2);
+}
+
+.img-caixa:hover{
+    box-shadow: var(--aux-color-1) -5px -5px 0px;
+}
+
+.caixa-section ul{
+    margin-left: 50px;
+    font-weight: bold;
+    width: 58%;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+form{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input{
+    height: 20px;
+    width: 100%;
+    margin-top: 4px;
+}
+
+form textarea{
+    height: 100px;
+    width: 100%;
+    margin-top: 4px;
+    resize: none;
+}
+
+.form-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.form-2 input{
+    height: 30px;
+    width: 20%;
+    margin-top: 5px;
+    align-self: flex-end;
+    border: var(--aux-color-1) 1px solid;
+    font-weight: bold;
+    transition: var(--transition-duration-2);
+}
+
+.form-2 input:hover{
+    background-color: var(--aux-color-1);
+    color: var(--text-color-1);
+}
+
+.descricao-contato{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.descricao{
+    width: 58%;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.frase{
+    font-size: 4em;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: var(--aux-color-1);
+}
+
+.divisoria{
+    width: 70%;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border: none;
+    background: rgb(24,49,255);
+    background: linear-gradient(90deg, rgba(24,49,255,0) 0%, rgba(39,107,182,1) 50%, rgba(24,49,255,0) 100%);
+}
+
+.mapa{
+    margin-top: 50px;
+    border: var(--aux-color-1) 3px solid;
+    box-sizing: border-box;
+}
